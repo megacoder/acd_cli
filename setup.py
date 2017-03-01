@@ -5,7 +5,7 @@ from distutils.version import StrictVersion
 import acdcli
 
 
-def read(fname: str) -> str:
+def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname), encoding='utf-8').read()
 
 # replace GitHub external links
