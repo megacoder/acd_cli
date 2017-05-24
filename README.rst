@@ -1,6 +1,6 @@
 |Donate| |Gitter| |PyVersion| |Status| |License| |Build| |PyPiVersion|
 
-acd\_cli
+acd\_cli is currently not usable for casual users who are not in possession of a whitelisted security profile. Please do not try to obtain or use other projects' security profile details. Also, please use the Gitter chat linked to above.
 ========
 
 **acd\_cli** provides a command line interface to Amazon Drive and allows Unix users to mount
@@ -101,7 +101,7 @@ Recent Changes
 0.3.2
 ~~~~~
 * added ``--remove-source-files`` argument to upload action
-* added ``--times``` argument to download action for preservation of modification times
+* added ``--times`` argument to download action for preservation of modification times
 * added streamed overwrite action
 * fixed upload of directories containing broken symlinks
 * disabled FUSE autosync by default
